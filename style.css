@@ -40,7 +40,7 @@ homo{
 }
 
 .homo_0{
-    padding-left: 195px;
+    padding-left: 205px;
     padding-bottom: 1px;
 }
 
@@ -107,7 +107,6 @@ h1{
     background-color: rgb(255, 255, 255);
     font-size: 50px;
 }
-
 
 h2, h3, h4{
     display: flex;
