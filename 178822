@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ashtq</title>
+    <meta charset="UTF-8">  
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <logo>
+          <img src="ashyq.png">
+         <!-- <img src="1.svg"> -->
+           <h5 class="logo_1">ASHYQ</h5>
+      </logo>
+
+      <homo class="homo_0">
+            <h6>Номер телефона</h6>
+      </homo>
+      <homo class="homo_1">
+            <h6>ИИН</h6> 
+            <h6>156156156</h6>
+      </homo>
+      <homo></homo>
+<script src="script.js"></script>  
+      <quadro>
+                <h4 class="enter">Куда входите:</h4>
+                <h2 class="place">"ТОО ПАХОМОВСКИЙ"</h2>
+                  <wraper class="wra">
+                    <box class="box1"><div class="iin">БИН ИИН</div></box>
+                    <box class="box2"><div class="iin">НОМЕР ВХОДА</div></box>
+                    <box class="box3"><div class="numb">611111654</div></box>
+                    <box class="box4"><div class="numb">6</div></box>
+                  </wraper>
+
+                  <h2 class="text_color">Статус</h2>
+
+                  <button>СИНИЙ</button>
+
+                  <h2 class="text_color">Срок действия истечёт через</h2>
+                       
+                  <span id="time" class="time_h3" >05:00</span>       
+      </quadro>
+            
+<footer>
+      <h3 class="text_color">время&nbspсканирования&nbspкода</h3>
+      <h3 class="text_time">19:30</h3>
+      <h3 class="text_color_again">Покажите соответствующий результат</h3>
+      <h3 class="text_color_again">сотруднику объекта</h3>
+</footer>
+
+</body>
+</html>
