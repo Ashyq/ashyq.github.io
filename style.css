@@ -65,7 +65,7 @@ quadro{
     background-color: white;
     margin: auto;
     width: 800px;
-    height: 800px;
+    height: 950px;
     border-radius: 30px;
     box-shadow:0 0 30px rgb(12, 12, 12);
     margin-top: -140px;
@@ -81,6 +81,37 @@ button{
     border-style: none;
     margin: auto;
     font-size: 50px;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 200px;
+    width: 780px;
+    border-radius: 30px;
+    border-style: none;
+    margin: auto;
+    font-size: 50px;
+}
+
+.blue_1{
+    display: flex;
+    color: rgb(207, 157, 19);
+    margin: 0;
+    background-color: blue;
+    border-radius: 30px;
+    justify-content:flex-end;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.blue_2{
+    display: flex;
+    margin: 0;
+    background-color: blue;
+    justify-content: center;
 }
 
 h1{
@@ -112,23 +143,24 @@ h6{
 
 .enter{
     color: rgb(3, 3, 66);
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 40px;
 }
 
 .place{
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin-bottom: 50px;
 }
 
 .time_h3{
     background-color: rgb(255, 255, 255);
-    margin-top: 5px;
+    margin-top: -5px;
     margin-bottom: 15px;
     margin: auto;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 h3{
@@ -138,9 +170,14 @@ h3{
 .text_color{
     color: grey;
     font-size: 40px;
+    margin-top: 40px;
+    
 }
 
 .text_time{
+    display: flex;
+    font-size: 50px;
+    margin: auto;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -150,6 +187,7 @@ h3{
     font-size: 40px;
     font-family:Arial, Helvetica, sans-serif;
     margin: auto;
+    
 }
 
 footer{
