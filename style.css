@@ -8,6 +8,7 @@
     background-color: inherit;
 	width: 200px;
 	height: 200px;
+    margin-left: -90px;
 }
 
 .svg1{
@@ -45,7 +46,8 @@ logo{
 
 .logo_1{
     padding-top: 75px;
-    margin-left: -30px;
+    margin-left: -35px;
+    letter-spacing: 5px;
 }
 
 .bold_numb{
