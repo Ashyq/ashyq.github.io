@@ -2,17 +2,47 @@
     background-color: rgb(233, 233, 233);
 }
 
-img{
-    margin-top: 5px;
-    width: 75px;
+/*img{
+    width: 100px;
     height: 75px;
     margin-right: 20px;
+}*/
+
+.icon {
+	background-image: url("1.svg");
+    background-repeat: no-repeat;
+    background-color: inherit;
+	width: 150px;
+	height: 150px;
 }
+
+.svg1{
+    background-color:inherit;
+}
+
+.wraphomo{
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+.wrapp{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: linear-gradient(to top, rgb(18, 5, 134), rgb(80, 129, 234));
+}
+    
 
 logo{
     display: flex;
     padding-top: 40px;
-    background-color: #2782ee;
+    background-color:inherit;
     height: 100px;
     max-width: 100%;
     color: rgb(243, 234, 234);
@@ -23,13 +53,13 @@ logo{
 }
 
 .logo_1{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 homo{
     display: flex;
-    background-color:#2782ee;
-    height: 100px;
+    background-color:inherit;
+    height: 60px;
     max-width: 100%;
     color: rgb(233, 233, 233);
     padding: 10px;
@@ -40,13 +70,13 @@ homo{
 }
 
 .homo_0{
-    padding-left: 205px;
+    
     padding-bottom: 1px;
 }
 
 .homo_1{
-    padding-left: 40px;
-    justify-content: space-around;
+    
+    justify-content: space-between;
 }
 
 .th_mov{
@@ -64,7 +94,7 @@ quadro{
     height: 950px;
     border-radius: 30px;
     box-shadow:0 0 30px rgb(12, 12, 12);
-    margin-top: -140px;
+    margin-top: -200px;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif
 }
@@ -85,7 +115,7 @@ quadro{
     display: flex;
     color: rgb(207, 157, 19);
     margin: 0;
-    background-color: blue;
+    background-color: inherit;
     border-radius: 30px;
     justify-content:flex-end;
     margin-right: 15px;
@@ -97,20 +127,13 @@ quadro{
     display: flex;
     margin: 0;
     margin-top: -5px;
-    background-color: blue;
+    background-color: transparent;
     justify-content: center;
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    font-size: 50px;
 }
 
 h2, h3, h4{
     display: flex;
-    background-color: white;
+    background-color: transparent;
     justify-content: center;
     font-size: 50px;
     margin-top: 15px;
@@ -120,11 +143,11 @@ h2, h3, h4{
 h5{
     margin-top: 5px;
     margin-left: 10px;
-    background-color: #2782ee;
+    background-color: transparent;
 }
 
 h6{
-    background-color: #2782ee;
+    background-color: transparent;
 }
 
 .enter{
@@ -140,7 +163,7 @@ h6{
 }
 
 .time_h3{
-    background-color: rgb(255, 255, 255);
+    background-color: inherit;
     margin-top: -5px;
     margin-bottom: 15px;
     margin: auto;
