@@ -30,7 +30,6 @@
     background: linear-gradient(to top, rgb(18, 5, 134), rgb(80, 129, 234));
 }
     
-
 logo{
     display: flex;
     padding-bottom: 60px;
@@ -68,12 +67,10 @@ homo{
 }
 
 .homo_0{
-    
     padding-bottom: 1px;
 }
 
 .homo_1{
-    
     justify-content: space-between;
 }
 
@@ -180,6 +177,7 @@ h3{
     font-size: 40px;
     margin-top: 40px;
     font-family:Montserrat;
+    font-weight: bold;
 }
 
 .text_time{
@@ -195,6 +193,7 @@ h3{
     font-size: 40px;
     font-family: Montserrat;
     margin: auto;
+    font-weight: bold;
 }
 
 footer{
