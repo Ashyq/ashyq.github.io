@@ -88,7 +88,7 @@ quadro{
     background-color: white;
     margin: auto;
     width: 800px;
-    height: 950px;
+    height: 1000px;
     border-radius: 30px;
     box-shadow:0 0 30px rgb(12, 12, 12);
     margin-top: -200px;
@@ -131,14 +131,14 @@ quadro{
     font-size: 60px;
 }
 
-h2, h3, h4{
+/*h2, h3, h4{
     display: flex;
     background-color: transparent;
     justify-content: center;
     font-size: 50px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
+}*/
 
 h5{
     margin-top: 5px;
@@ -154,12 +154,21 @@ h6{
     color: rgb(8, 8, 143);
     font-size: 40px;
     margin-top: 40px;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    font-size: 40px;
 }
-
+/*20 for three, 40 for once*/
 .place{
-    font-size: 45px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
 }
 
 .time_h3{
@@ -177,9 +186,13 @@ h3{
 }
 
 .text_color{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
     color: grey;
     font-size: 40px;
     margin-top: 40px;
+    margin-bottom: 10px;
     font-family:Montserrat;
     font-weight: bold;
 }
