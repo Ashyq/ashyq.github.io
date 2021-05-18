@@ -53,6 +53,7 @@ logo{
 
 .bold_numb{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: inherit;
 }
 
 homo{
@@ -171,8 +172,6 @@ h6{
 
 .time_h3{
     background-color: inherit;
-    margin-top: -5px;
-    margin-bottom: 15px;
     margin: auto;
     font-size: 80px;
     font-weight: bold;
@@ -251,6 +250,7 @@ footer{
     color: black;
     font-weight: bold;
     margin-bottom: 15px;
+    text-decoration: inherit;
 }
 
 .box1, .box3{
