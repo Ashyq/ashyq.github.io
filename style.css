@@ -3,7 +3,7 @@
     margin:0;
 }
 
-.icon {
+.icon{
     background-image: url("3.svg");
     background-repeat: no-repeat;
     background-color: inherit;
@@ -12,11 +12,7 @@
     margin-left: -90px;
 }
 
-.svg1{
-    background-color:inherit;
-}
-
-.wraphomo{
+.wrapper_homo{
     display: flex;
     flex-direction: column;
     background-color: inherit;
@@ -25,7 +21,7 @@
     margin-top: 30px;
 }
 
-.wrapp{
+.wrapper_logo{
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -45,10 +41,12 @@ logo{
     font-size: 50px;
 }
 
-.logo_1{
+.logo_text{
     padding-top: 75px;
     margin-left: -35px;
     letter-spacing: 5px;
+    margin-top: 5px;
+    background-color: inherit;
 }
 
 .bold_numb{
@@ -85,7 +83,6 @@ homo{
 
 quadro{
     display: flex;
-    flex: 1;
     background-color: white;
     margin: auto;
     width: 800px;
@@ -132,13 +129,7 @@ quadro{
     font-size: 60px;
 }
 
-h5{
-    margin-top: 5px;
-    margin-left: 10px;
-    background-color: inherit;
-}
-
-h3, h6{
+h6{
     background-color: inherit;
 }
 
@@ -149,7 +140,6 @@ h3, h6{
     display: flex;
     background-color: transparent;
     justify-content: center;
-    font-size: 40px;
 }
 /*20 for three, 40 for once*/
 .place{
@@ -171,7 +161,7 @@ h3, h6{
 
 .text_color{
     text-align: center;
-    background-color: transparent;
+    background-color: inherit;
     color: grey;
     font-size: 40px;
     margin-top: 40px;
@@ -190,6 +180,7 @@ h3, h6{
 
 .text_color_again{
     text-align: center;
+    background-color: inherit;
     color: rgb(185, 6, 6);
     font-size: 40px;
     font-family: Montserrat;
@@ -204,7 +195,7 @@ footer{
     justify-content: center;
 }
 
-.wra{
+.wrapper_quadro{
     background-color: inherit;
     margin-top: 10px;
     display: flex;
